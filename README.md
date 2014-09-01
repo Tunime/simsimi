@@ -2,7 +2,10 @@
 
 simsimi for nodejs .
 
+[![NPM](https://nodei.co/npm/simsimi.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/simsimi/)
+
 ### Installation
+
 ````
 $ npm install simsimi --save
 ````
@@ -10,22 +13,19 @@ $ npm install simsimi --save
 
 ### Example
 
-```
+````javascript
 var Simsimi = require('simsimi');
 
 var simsimi = new Simsimi({
 	key: 'your license key'
 });
 
-simsimi.listen('', function(err, response){
+simsimi.listen('Hello', function(err, response){
 	console.log(response);
 });
 
-```
+````
 
-### API
-
-- simsimi.STATUS()
 
 ### Contributing
 - Fork this repo
