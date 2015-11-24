@@ -6,11 +6,11 @@ const request = require('superagent');
 class Simsimi {
   static get STATUS(){
     return ({
-    	OK					: 100,
-    	BAD_REQUEST	: 400,
-    	UNAUTHORIZED: 401,
-    	NOT_FOUND		: 404,
-    	SERVER_ERROR: 500
+    	OK           : 100,
+    	BAD_REQUEST  : 400,
+    	UNAUTHORIZED : 401,
+    	NOT_FOUND    : 404,
+    	SERVER_ERROR : 500
     });
   }
   constructor(options){
