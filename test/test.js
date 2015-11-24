@@ -1,10 +1,10 @@
-var Simsimi = require('../index.js');
+var Simsimi = require('../');
 
 var simsimi = new Simsimi({
-	key: '7f503329-9755-49dc-95d3-c586cf578914'
+	key: '0da76951-3f0d-49be-9be3-e014f658644b'
 });
 
 simsimi.listen('Hi', function(err, msg){
 	if(err) return console.error(err);
-	console.log('simsimi say: %s', msg);
+	console.log('simsimi say:', msg);
 });

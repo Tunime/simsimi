@@ -1,8 +1,8 @@
 {
   "name": "simsimi",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "simsimi for nodejs .",
-  "main": "index.js",
+  "main": "simsimi.js",
   "scripts": {
     "test": "node test/test.js"
   },
@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/song940/simsimi",
   "dependencies": {
-    "request": "^2.40.0"
+    "superagent": "latest"
   }
 }
