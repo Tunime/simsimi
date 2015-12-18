@@ -14,16 +14,16 @@ $ npm install simsimi --save
 ### Example
 
 ````javascript
-var Simsimi = require('simsimi');
+const Simsimi = require('simsimi');
 
-var simsimi = new Simsimi({
-	key: 'your license key'
+const simsimi = new Simsimi({
+	key: '0da76951-3f0d-49be-9be3-e014f658644b'
 });
 
-simsimi.listen('Hello', function(err, response){
-	console.log(response);
+simsimi.listen('Hi', function(err, msg){
+	if(err) return console.error(err);
+	console.log('simsimi say:', msg);
 });
-
 ````
 
 
