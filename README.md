@@ -6,14 +6,14 @@ simsimi for nodejs .
 
 ### Installation
 
-````
+```shell
 $ npm install simsimi --save
-````
+```
 
 
 ### Example
 
-````javascript
+```js
 const Simsimi = require('simsimi');
 
 var simsimi = new Simsimi({
@@ -24,7 +24,7 @@ simsimi.listen('Hello', function(err, response){
   if(err) return console.error(err);
    console.log('simsimi say:', msg);
 });
-````
+```
 
 
 ### Contributing
