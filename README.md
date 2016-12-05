@@ -1,4 +1,4 @@
-## simsimi ![npm](https://badge.fury.io/js/simsimi.png)
+## simsimi ![npm](https://badge.fury.io/js/simsimi.png) [![Build Status](https://travis-ci.org/song940/simsimi.svg?branch=master)](https://travis-ci.org/song940/simsimi)
 
 simsimi for nodejs .
 
