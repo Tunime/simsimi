@@ -16,13 +16,13 @@ $ npm install simsimi --save
 ````javascript
 const Simsimi = require('simsimi');
 
-const simsimi = new Simsimi({
-	key: '0da76951-3f0d-49be-9be3-e014f658644b'
+var simsimi = new Simsimi({
+  key: 'your license key'
 });
 
-simsimi.listen('Hi', function(err, msg){
-	if(err) return console.error(err);
-	console.log('simsimi say:', msg);
+simsimi.listen('Hello', function(err, response){
+  if(err) return console.error(err);
+   console.log('simsimi say:', msg);
 });
 ````
 

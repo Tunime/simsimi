@@ -1,10 +1,19 @@
-const Simsimi = require('../');
+const assert  = require('assert');
+const Simsimi = require('..');
 
-const simsimi = new Simsimi({
-	key: '0da76951-3f0d-49be-9be3-e014f658644b'
-});
-
-simsimi.listen('Hi', function(err, msg){
-	if(err) return console.error(err);
-	console.log('simsimi say:', msg);
-});
+describe('Simsimi SDK Test Case', function(){
+  
+  var simsimi = new Simsimi({
+    key: 'f05ba03a-c5c5-4e52-ac73-e3be6e2557f3'
+  });
+  
+  it('Simsimi#listen', function(done){
+    
+    simsimi.listen('Hi', function(err, msg, response){
+      assert.equal(response.result, Simsimi.STATUS.OK);
+      done();
+    });
+    
+  });
+  
+})

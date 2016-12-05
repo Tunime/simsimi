@@ -1,10 +1,10 @@
 {
   "name": "simsimi",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "simsimi for nodejs .",
   "main": "simsimi.js",
   "scripts": {
-    "test": "node test/test.js"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,8 @@
   "homepage": "https://github.com/song940/simsimi",
   "dependencies": {
     "superagent": "latest"
+  },
+  "devDependencies": {
+    "mocha": "*"
   }
 }
