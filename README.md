@@ -20,9 +20,9 @@ var simsimi = new Simsimi({
   key: 'your license key'
 });
 
-simsimi.listen('Hello', function(err, response){
+simsimi.listen('Hello', function(err, msg){
   if(err) return console.error(err);
-   console.log('simsimi say:', msg);
+  console.log('simsimi say:', msg);
 });
 ```
 

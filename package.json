@@ -1,6 +1,6 @@
 {
   "name": "simsimi",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "simsimi for nodejs .",
   "main": "simsimi.js",
   "scripts": {
